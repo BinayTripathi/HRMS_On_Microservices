@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+    
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:C:\Study\JAVA\SpringBoot\SPRING_BOOT_MICROSERVICE_WORKSPACE_MY_APP\ebs-cloud-config-git
+    
+server:
+  port: 8888
+  
+  
+eureka:
+  instance:
+    instance-id: spring-cloud-config-server
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVER:http://discovery:8761/eureka}
