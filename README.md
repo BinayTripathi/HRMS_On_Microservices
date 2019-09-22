@@ -59,10 +59,13 @@ All components have docker files and docker image can be build. Also docker-comp
 
  
 URLs:
+
   Naming server:
+  
     http://localhost:8761/
 
   EmployeeManagementSystem
+  
     Swagger :  http://localhost:8000/ems/swagger-ui.html
     
         URIs can be see in swagger
