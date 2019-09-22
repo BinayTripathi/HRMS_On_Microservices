@@ -1,6 +1,11 @@
 # Enterprise_HRMS_And_Billing_Using_Microservices
 Human Resource Management System and related enterprise operations  using Java Spring boot , Microservices , Hibernate and Restful APIs
 
+
+    <a href="https://info.flagcounter.com/Zp0e"><img src="https://s11.flagcounter.com/count2/Zp0e/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+    
+    
+
 enterprise-billing-system  is the root folder that contains each of the component.
 
 Details of the components:
@@ -78,6 +83,6 @@ URLs:
     
     
     
-    <a href="https://info.flagcounter.com/Zp0e"><img src="https://s11.flagcounter.com/count2/Zp0e/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
     
   
