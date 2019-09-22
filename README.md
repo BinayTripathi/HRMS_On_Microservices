@@ -10,7 +10,7 @@ Details of the components:
     are demonstrated in here
 	  
     a. Spring dataJPA and hibernate
-        -	H2 in-memory database
+        - H2 in-memory database
         - Relationships - One to many
           - LazyFetch
         - Entity inheritance
