@@ -10,31 +10,53 @@ Details of the components:
     are demonstrated in here
 	  
     a. Spring dataJPA and hibernate
+    
         - H2 in-memory database
+	
         - Relationships - One to many
+	
           - LazyFetch
+	  
         - Entity inheritance
+	
         - Enums in Entity
-        - @JsonManagedReference and @JsonBackReference    
+	
+        - @JsonManagedReference and @JsonBackReference   
+	
 	  b. Rest Webservice
+	  
 		    -	Error Handling
+		    
 		    -	Response parameter/status
-		    -	Swagger        
+		    
+		    -	Swagger     
+		    
 	  c.  Microservices concepts
+	  
 		    -	Register to Eureka Naming server
+		    
 		    -	Pulling configuration from Spring cloud config
+		    
     d. lambok
+    
         -	getter
+	
         -	setter
+	
         -	NoArgsContructor
-        - AllArgsConstructor
+	
+        - 	AllArgsConstructor
+	
         -	Builder
+	
         
   4. Yet - to - come  :   Other components are yet to come that would following the Microservices paradigm . These components will 
       talk to each other using Feign client and Ribbon load balancer as well as an API gateway will intercept the calls before 
       forwarding it over.
+      
   
 All components have docker files and docker image can be build. Also docker-compose can be used for the orchestration
+
  
 URLs:
   Naming server:
