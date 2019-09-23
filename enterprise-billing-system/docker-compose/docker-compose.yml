@@ -1,6 +1,0 @@
-version: '3'
-services:
-    discovery:
-      image: binaymckv/netflix-eureka-naming-server:0.0.1-SNAPSHOT
-      ports:
-       - "8761:8761"
