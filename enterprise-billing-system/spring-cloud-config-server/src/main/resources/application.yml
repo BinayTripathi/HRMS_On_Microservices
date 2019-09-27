@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: file:C:\Study\JAVA\SpringBoot\SPRING_BOOT_MICROSERVICE_WORKSPACE_MY_APP\ebs-cloud-config-git
+          uri: https://github.com/BinayTripathi/EBS-Cloud-Config-Repo.git
     
 server:
   port: 8888
