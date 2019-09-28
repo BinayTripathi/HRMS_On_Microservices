@@ -16,7 +16,7 @@ services:
   hrms:
     image: tbinay/employee-management-system:0.0.1-SNAPSHOT
     ports:
-      - 8888:8888
+      - 8000:8000
     environment:
       - JAVA_OPTS=
         -DEUREKA_SERVER=http://localhost:8761/eureka
