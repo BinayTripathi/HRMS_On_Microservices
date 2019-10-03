@@ -4,7 +4,7 @@ services:
     image: tbinay/netflix-eureka-naming-server:0.0.1-SNAPSHOT
     ports:
       - 8761:8761
-  cloud-config:
+  spring-cloud-config-server:
     image: tbinay/spring-cloud-config-server:0.0.1-SNAPSHOT
     ports:
       - 8888:8888
@@ -27,4 +27,4 @@ services:
         -DEUREKA_SERVER=http://discovery:8761/eureka
     depends_on:
       - discovery
-      - cloud-config
+      - spring-cloud-config-server
