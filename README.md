@@ -72,7 +72,9 @@ To run using docker compose :
 	
 	3. run the command docker-compose up
 	
-	4. Troubleshoot : In case the enterprise-billing-system (container name : tbinay/employee-management-system:0.0.1-SNAPSHOT) is not able to find the Discovery service or Spring Cloud Config Server , we need to stop and restart the container using following steps:
+	4. Troubleshoot : In case the enterprise-billing-system (container name : tbinay/employee-management-system:0.0.1-SNAPSHOT)
+	is not able to find the Discovery service or Spring Cloud Config Server , we need to stop and restart the container 
+	using following steps:
 	
 		a. Find all the running docker container using docker container ls
 		
