@@ -63,6 +63,15 @@ Details of the components:
       
   
 All components have docker files and docker image can be build. Also docker-compose can be used for the orchestration
+To run using docker compose :
+	1. Copy the docker-compose.yml file present under enterprise-billing-system
+	2. Open command prompt and cd to folder where the above yml is copied
+	3. run the command docker-compose up
+	4. Troubleshoot : In case the ems is not able to find the Discovery service or cloud config
+		a. Find all the running docker container using docker container ls
+		b. Get the copy the container id of the ems application
+		c. Stop the container by running -   docker container stop <container id>
+		d. Restart the container by running - docker container start <container id>
 
  
 URLs:
