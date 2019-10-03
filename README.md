@@ -63,15 +63,25 @@ Details of the components:
       
   
 All components have docker files and docker image can be build. Also docker-compose can be used for the orchestration
+
 To run using docker compose :
+
 	1. Copy the docker-compose.yml file present under Enterprise_HRMS_And_Billing_Using_Microservices/enterprise-billing-system/
+	
 	2. Open command prompt and cd to folder where the above yml is copied
+	
 	3. run the command docker-compose up
+	
 	4. Troubleshoot : In case the enterprise-billing-system (container name : tbinay/employee-management-system:0.0.1-SNAPSHOT) is not able to find the Discovery service or Spring Cloud Config Server , we need to stop and restart the container using following steps:
+	
 		a. Find all the running docker container using docker container ls
+		
 		b. Get the copy the container id of the ems application
+		
 		c. Stop the container by running -   docker container stop <container id>
+		
 		d. Restart the container by running - docker container start <container id>
+		
 
  
 URLs:
