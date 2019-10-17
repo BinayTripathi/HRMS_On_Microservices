@@ -15,14 +15,17 @@ services:
       - discovery
   hrms:
     image: tbinay/employee-management-system:0.0.1-SNAPSHOT
-    ports:
-      - 8000:8000
-    healthcheck:
-      test: curl --fail -s http://discovery:8761/ || exit 1
-      interval: 1m30s
-      timeout: 10s
-      retries: 3
     environment:
+      - MY_SERVICE_PORT=8006
+      - JAVA_OPTS=
+        -DEUREKA_SERVER=http://discovery:8761/eureka
+    depends_on:
+      - discovery
+      - spring-cloud-config-server
+  hrmsA:
+    image: tbinay/employee-management-system:0.0.1-SNAPSHOT
+    environment:
+      - MY_SERVICE_PORT=8005
       - JAVA_OPTS=
         -DEUREKA_SERVER=http://discovery:8761/eureka
     depends_on:
