@@ -55,11 +55,17 @@ Details of the components:
         - 	AllArgsConstructor
 	
         -	Builder
+		
+	e.	OAuth 
+		-	Authorization Server module
+		
+		-	timesheet-and-leave-mgmt-system is the resource sysytem. 
 	
         
   4. Yet - to - come  :   Other components are yet to come that would following the Microservices paradigm . These components will 
       talk to each other using Feign client and Ribbon load balancer as well as an API gateway will intercept the calls before 
-      forwarding it over.
+      forwarding it over. Also "timesheet-and-leave-mgmt-system" is dummy project with OAuth enabled. However this needs to be integrated
+	  with other module
       
   
 All components have docker files and docker image can be build. Also docker-compose can be used for the orchestration
